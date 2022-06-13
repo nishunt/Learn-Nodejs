@@ -1,4 +1,4 @@
-# Node Tutorial[[Link](https://www.youtube.com/watch?v=Oe421EPjeBE&t=9493s)]
+# Node Tutorial [[Link](https://www.youtube.com/watch?v=Oe421EPjeBE&t=9493s)]
 
 `Date - Jun 13 2022`
 
@@ -6,9 +6,9 @@
 
 There are two ways of using Node:
 
-1. REPL: less often used, only for playing around with the code and quick testing
+1. `REPL`: less often used, only for playing around with the code and quick testing
    - type `node` inside the terminal and use.
-2. CLI: more often used
+2. `CLI`: more often used
 
 ## Global Variables
 

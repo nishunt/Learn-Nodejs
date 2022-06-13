@@ -1,0 +1,5 @@
+Here is the final result 
+This is a file with some text 
+This is not the first time we are running this script lolHere is the final result 
+This is a file with some text 
+This is not the first time we are running this script lol
