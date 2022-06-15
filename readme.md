@@ -42,3 +42,35 @@ There are two ways of using Node:
 - Third digit: Batch
 
 > **package-lock.json** has details of versions of packages as well as packages of those packages.
+
+## Event Loop
+
+> The event loop is what allows Node.js to perform non-blocking(asynchronous/multi-thread) operations by offloading the operations to the system kernel whenever possible despite the fact that JS is single-threaded(synchronous/blocking).
+
+The browser provides APIs to run code asynchronously in Javascript.
+
+The async code gets offloaded from the regular flow of code and runs only once the sync code is finished running.
+
+> A callback is a function passed as an argument to another function. eg:
+
+```javascript
+function myDisplayer(some) {
+  document.getElementById("demo").innerHTML = some;
+}
+
+function myCalculator(num1, num2, myCallback) {
+  let sum = num1 + num2;
+  myCallback(sum);
+}
+
+myCalculator(5, 5, myDisplayer);
+```
+
+## Streams
+
+- `Writeable` To write data sequentially
+- `Readable` To read data sequentially
+- `Duplex` To read and write data sequentially
+- `Transform` To make changes in data while writing
+
+By default, the size of the buffer ie. one read is 64kb

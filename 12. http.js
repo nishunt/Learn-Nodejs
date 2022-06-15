@@ -1,5 +1,7 @@
 const http = require("http");
 const server = http.createServer((req, res) => {
+  // request is what's coming in
+  // response is what we send out
   if (req.url === "/") {
     res.end("Welcome to our homepage");
   }
